@@ -1,3 +1,4 @@
+import co.median.android.rdzdamq.R;
 package com.durantanews.smartmanagement;
 
 import android.app.NotificationManager;
