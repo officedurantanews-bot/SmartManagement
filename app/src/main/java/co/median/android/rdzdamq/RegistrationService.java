@@ -1,4 +1,4 @@
-package co.median.android.rdzdamq;
+package com.durantanews.smartmanagement;
 
 import android.app.IntentService;
 import android.content.Context;
