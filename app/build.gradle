@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'co.median.android.rdzdamq'
+    namespace 'com.smartmanagement.app'
     compileSdk 34
 
     defaultConfig {
-        applicationId "co.median.android.rdzdamq"
+        applicationId "com.smartmanagement.app"
         minSdk 21
         targetSdk 34
         versionCode 1

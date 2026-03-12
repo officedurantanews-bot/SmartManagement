@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "co.median.android.rdzdamq.app-mergeDebugResources-35:/values-en-rAU/values-en-rAU.xml",
+            "outputFile": "com.smartmanagement.app-mergeDebugResources-35:/values-en-rAU/values-en-rAU.xml",
             "map": [
                 {
-                    "source": "/data/data/com.termux/files/home/.gradle/caches/9.4.0/transforms/333d6377c9a9c27aacfee22343300df9/transformed/core-1.12.0/res/values-en-rAU/values-en-rAU.xml",
+                    "source": "/data/data/com.termux/files/home/.gradle/caches/transforms-3/03dd70c96587a62d83d4ae2e98a44771/transformed/core-1.12.0/res/values-en-rAU/values-en-rAU.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/data/data/com.termux/files/home/.gradle/caches/9.4.0/transforms/a9c883bed8d9923fa00e97b206415a73/transformed/appcompat-1.6.1/res/values-en-rAU/values-en-rAU.xml",
+                    "source": "/data/data/com.termux/files/home/.gradle/caches/transforms-3/c727912cdc576347a72bb95aa52ffcf2/transformed/appcompat-1.6.1/res/values-en-rAU/values-en-rAU.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

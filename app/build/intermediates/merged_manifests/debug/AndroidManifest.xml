@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="co.median.android.rdzdamq"
+    package="com.smartmanagement.app"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -22,13 +22,13 @@
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
 
     <permission
-        android:name="co.median.android.rdzdamq.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+        android:name="com.smartmanagement.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="co.median.android.rdzdamq.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+    <uses-permission android:name="com.smartmanagement.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
 
     <application
-        android:name="co.median.android.rdzdamq.NMApp"
+        android:name="com.smartmanagement.app.NMApp"
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
@@ -38,7 +38,7 @@
         android:theme="@style/Theme.App"
         android:usesCleartextTraffic="false" >
         <activity
-            android:name="co.median.android.rdzdamq.MainActivity"
+            android:name="com.smartmanagement.app.MainActivity"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:exported="true"
             android:launchMode="singleTop"
@@ -62,7 +62,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="co.median.android.rdzdamq.CallActivity"
+            android:name="com.smartmanagement.app.CallActivity"
             android:exported="true"
             android:launchMode="singleTop"
             android:screenOrientation="portrait"
@@ -70,7 +70,7 @@
             android:turnScreenOn="true" />
 
         <service
-            android:name="co.median.android.rdzdamq.NMFirebaseService"
+            android:name="com.smartmanagement.app.NMFirebaseService"
             android:exported="false" >
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
@@ -78,10 +78,10 @@
         </service>
 
         <receiver
-            android:name="co.median.android.rdzdamq.CallReceiver"
+            android:name="com.smartmanagement.app.CallReceiver"
             android:exported="false" />
         <receiver
-            android:name="co.median.android.rdzdamq.BootReceiver"
+            android:name="com.smartmanagement.app.BootReceiver"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
@@ -94,7 +94,7 @@
 
         <provider
             android:name="androidx.startup.InitializationProvider"
-            android:authorities="co.median.android.rdzdamq.androidx-startup"
+            android:authorities="com.smartmanagement.app.androidx-startup"
             android:exported="false" >
             <meta-data
                 android:name="androidx.emoji2.text.EmojiCompatInitializer"
@@ -165,7 +165,7 @@
 
         <provider
             android:name="com.google.firebase.provider.FirebaseInitProvider"
-            android:authorities="co.median.android.rdzdamq.firebaseinitprovider"
+            android:authorities="com.smartmanagement.app.firebaseinitprovider"
             android:directBootAware="true"
             android:exported="false"
             android:initOrder="100" />
@@ -174,6 +174,22 @@
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
 
+        <service
+            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+            android:exported="false" >
+            <meta-data
+                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+                android:value="cct" />
+        </service>
+        <service
+            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" >
+        </service>
+
+        <receiver
+            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+            android:exported="false" />
         <receiver
             android:name="androidx.profileinstaller.ProfileInstallReceiver"
             android:directBootAware="false"
@@ -193,23 +209,6 @@
                 <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
             </intent-filter>
         </receiver>
-
-        <service
-            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
-            android:exported="false" >
-            <meta-data
-                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
-                android:value="cct" />
-        </service>
-        <service
-            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
-            android:exported="false"
-            android:permission="android.permission.BIND_JOB_SERVICE" >
-        </service>
-
-        <receiver
-            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
-            android:exported="false" />
     </application>
 
 </manifest>
