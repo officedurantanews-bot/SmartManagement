@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "co.median.android.rdzdamq.app-merged_res-37:/drawable_ic_launcher.xml.flat",
+        "source": "co.median.android.rdzdamq.app-main-39:/drawable/ic_launcher.xml"
+    },
+    {
+        "merged": "co.median.android.rdzdamq.app-merged_res-37:/drawable_btn_green.xml.flat",
+        "source": "co.median.android.rdzdamq.app-main-39:/drawable/btn_green.xml"
+    },
+    {
+        "merged": "co.median.android.rdzdamq.app-merged_res-37:/layout_activity_main.xml.flat",
+        "source": "co.median.android.rdzdamq.app-main-39:/layout/activity_main.xml"
+    },
+    {
+        "merged": "co.median.android.rdzdamq.app-merged_res-37:/drawable_btn_red.xml.flat",
+        "source": "co.median.android.rdzdamq.app-main-39:/drawable/btn_red.xml"
+    },
+    {
+        "merged": "co.median.android.rdzdamq.app-merged_res-37:/layout_activity_call.xml.flat",
+        "source": "co.median.android.rdzdamq.app-main-39:/layout/activity_call.xml"
+    },
+    {
+        "merged": "co.median.android.rdzdamq.app-merged_res-37:/drawable_circle_green.xml.flat",
+        "source": "co.median.android.rdzdamq.app-main-39:/drawable/circle_green.xml"
+    }
+]

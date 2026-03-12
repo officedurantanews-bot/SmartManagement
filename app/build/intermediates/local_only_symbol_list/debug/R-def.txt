@@ -1,0 +1,21 @@
+R_DEF: Internal format may change without notice
+local
+drawable btn_green
+drawable btn_red
+drawable circle_green
+drawable ic_launcher
+id btn_answer
+id btn_reject
+id tv_caller
+id tv_type
+id webview
+layout activity_call
+layout activity_main
+string app_name
+string gcm_defaultSenderId
+string google_api_key
+string google_app_id
+string google_crash_reporting_api_key
+string google_storage_bucket
+string project_id
+style Theme.App

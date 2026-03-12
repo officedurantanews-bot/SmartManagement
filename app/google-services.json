@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "755655691722",
+    "project_id": "duranta-news",
+    "storage_bucket": "duranta-news.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:755655691722:android:714481bf487ce949e1d333",
+        "android_client_info": {
+          "package_name": "co.median.android.rdzdamq"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-9JyLCLh2-VscGm3bdtXemY8QJtqIKyg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

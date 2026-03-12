@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Smart Management</string>
+    <string name="gcm_defaultSenderId" translatable="false">755655691722</string>
+    <string name="google_api_key" translatable="false">AIzaSyB-9JyLCLh2-VscGm3bdtXemY8QJtqIKyg</string>
+    <string name="google_app_id" translatable="false">1:755655691722:android:714481bf487ce949e1d333</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyB-9JyLCLh2-VscGm3bdtXemY8QJtqIKyg</string>
+    <string name="google_storage_bucket" translatable="false">duranta-news.firebasestorage.app</string>
+    <string name="project_id" translatable="false">duranta-news</string>
+    <style name="Theme.App" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#1e40af</item>
+        <item name="android:windowBackground">#000000</item>
+        <item name="android:statusBarColor">#000000</item>
+    </style>
+</resources>
