@@ -1,4 +1,5 @@
 package com.durantanews.smartmanagement;
+import co.median.android.rdzdamq.R;
 
 import android.Manifest;
 import android.app.Activity;
